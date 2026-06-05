@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Galleon - Home</title>
-   
+
     <script src="https://cdn.tailwindcss.com"></script>
-  
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
@@ -64,10 +64,10 @@
             </h1>
 
             <div class="flex flex-wrap gap-4 mb-12">
-                <a id="sliderBtnPrimary" href="#" class="inline-block px-8 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                <a id="sliderBtnPrimary" href="#" class="inline-block px-8 py-2 bg-[#A78C53] text-white font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#A78C53] hover:text-[#A78C53] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                     Join The Movement
                 </a>
-                <a id="sliderBtnSecondary" href="#" class="inline-block px-8 py-3 bg-transparent border border-white text-white font-bold text-sm tracking-wide transition-all hover:bg-[#e8d47d] hover:text-gray-900 hover:border-[#e8d47d] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                <a id="sliderBtnSecondary" href="#" class="inline-block px-8 py-2 bg-transparent border-2 border-white text-white font-bold text-sm tracking-wide transition-all hover:bg-white hover:text-gray-900 hover:border-white rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                     Support our program
                 </a>
             </div>
@@ -110,7 +110,7 @@
                     We are designed to address real community challenges through sustainable and practical solutions. From grassroots initiatives to large-scale development programs, we focus on delivering measurable results that improve lives and strengthen communities for the long term.
                 </p>
 
-                <a href="#" class="inline-block px-8 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                <a href="#" class="inline-block px-8 py-2 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#A78C53] hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                     See All
                 </a>
             </div>
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <a href="#" class="inline-block px-8 py-3.5 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                <a href="#" class="inline-block px-8 py-2 bg-[#e8d47d] text-gray-900 font-bold border-2 border-transparent hover:bg-transparent hover:border-[#A78C53] hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                     Read Our Story
                 </a>
             </div>
@@ -285,7 +285,7 @@
                     <p class="text-sm md:text-base text-gray-600 leading-relaxed font-light tracking-wide text-left mb-6 w-full">
                         Our events bring together volunteers, partners, and supporters who share a passion for transforming lives. Explore our upcoming activities and find out how you can participate.
                     </p>
-                    <a href="#" class="inline-block px-8 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                    <a href="#" class="inline-block px-8 py-2 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#A78C53] hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                         View All Events
                     </a>
                 </div>
@@ -430,7 +430,7 @@
     $active_tab_key = 'beneficiary';
     ?>
 
-    <section class="w-full bg-[#fafafa] py-16 px-6 md:px-24 overflow-hidden font-sans">
+    <section class="w-full py-16 px-6 md:px-24 overflow-hidden font-sans">
         <div class="max-w-7xl mx-auto">
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-16 items-start mb-12">
@@ -505,7 +505,7 @@
                                 <?php echo htmlspecialchars($story['content']); ?>
                             </p>
 
-                            <a href="#" class="inline-block px-8 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                            <a href="#" class="inline-block px-8 py-2 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#A78C53] hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                                 Read more
                             </a>
                         </div>
@@ -517,6 +517,7 @@
         </div>
     </section>
 
+    <br><br><br>
 
     <section class="w-full grid grid-cols-1 md:grid-cols-2 min-h-[450px] bg-white overflow-hidden font-sans">
 
@@ -537,7 +538,7 @@
                     Sign up today and become part of a network of supporters committed to driving meaningful impact.
                 </p>
 
-                <a href="#" class="inline-block px-8 py-3.5 bg-black text-white font-bold text-sm tracking-widest uppercase transition-all hover:bg-gray-950 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-md cursor-pointer">
+                <a href="get-involved" class="inline-block px-8 py-2.5 bg-black text-white font-bold text-sm tracking-widest uppercase border-2 border-transparent transition-all hover:bg-transparent hover:border-black hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-md cursor-pointer">
                     Become A Member
                 </a>
             </div>

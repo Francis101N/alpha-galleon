@@ -65,7 +65,7 @@
             <h2 class="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mb-2">Become a Volunteer Today....</h2>
             <div class="w-16 h-[2px] bg-brand-yellow mb-8"></div>
 
-            <form action="processors/volunteer-submit.php" method="POST" class="w-full grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
+            <form action="volunteer-submit" method="POST" class="w-full grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
                 <div class="flex flex-col gap-1.5">
                     <label class="text-xs font-bold text-gray-600 tracking-wide uppercase">First Name</label>
                     <input type="text" name="first_name" placeholder="First name" required class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-brand-yellow/50">
@@ -115,7 +115,7 @@
 
                 <br>
                 <div class="sm:col-span-2 pt-2">
-                    <button type="submit" class="px-10 py-3 bg-black text-white font-bold text-xs uppercase tracking-widest clip-asymmetric-lg shadow-md transition-colors hover:bg-gray-950 cursor-pointer focus:outline-none rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
+                    <button type="submit" class="px-10 py-2.5 bg-black text-white font-bold text-xs uppercase tracking-widest border-2 border-transparent transition-all hover:bg-transparent hover:border-black hover:text-black cursor-pointer focus:outline-none rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-md">
                         Apply Now
                     </button>
                 </div>
@@ -127,4 +127,5 @@
 
 </body>
 <script src="dist/js/get-involved.js"></script>
+
 </html>

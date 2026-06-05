@@ -287,7 +287,7 @@
                                 <?php echo htmlspecialchars($story['content']); ?>
                             </p>
 
-                            <a href="#" class="inline-block px-8 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
+                            <a href="#" class="inline-block px-8 py-2.5 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#e8d47d] hover:text-black rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs">
                                 Read more
                             </a>
                         </div>
@@ -303,4 +303,5 @@
 
 </body>
 <script src="dist/js/project.js"></script>
+
 </html>

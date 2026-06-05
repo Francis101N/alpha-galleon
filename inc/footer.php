@@ -69,7 +69,7 @@
                              class="w-full bg-transparent border border-gray-400 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-400 focus:outline-none focus:border-[#e8d47d] focus:ring-1 focus:ring-[#e8d47d] transition-all">
                      </div>
                      <button type="submit"
-                         class="px-10 py-3 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide transition-all hover:bg-[#dec96b] rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs cursor-pointer">
+                         class="px-10 py-2.5 bg-[#e8d47d] text-gray-900 font-bold text-sm tracking-wide border-2 border-transparent transition-all hover:bg-transparent hover:border-[#A78C53] hover:text-white rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-xs cursor-pointer">
                          Submit
                      </button>
                  </form>

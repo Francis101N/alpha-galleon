@@ -29,7 +29,7 @@ function get_nav_classes($item_url, $current_page)
     if ($item_url === $current_page) {
         return $base_classes . "bg-[#fdf8e6] text-black font-semibold";
     }
-    return $base_classes . "hover:text-brandBlue text-gray-600";
+    return $base_classes . "hover:text-[#ffc106] text-gray-600";
 }
 
 function is_dropdown_active($dropdown_items, $current_page)
@@ -58,7 +58,7 @@ function is_dropdown_active($dropdown_items, $current_page)
                 </a>
             <?php elseif ($item['type'] === 'dropdown'):
                 $dropdown_active = is_dropdown_active($item['items'], $current_page);
-                $dropdown_bg = $dropdown_active ? 'bg-[#fdf8e6] text-black font-semibold' : 'text-gray-600 hover:text-brandBlue';
+                $dropdown_bg = $dropdown_active ? 'bg-[#fdf8e6] text-black font-semibold' : 'text-gray-600 hover:text-[#ffc106]';
             ?>
                 <div class="relative inline-block text-left">
                     <button id="dropdownBtn" class="px-3 py-2 rounded-lg transition-all duration-200 flex items-center gap-1 font-medium focus:outline-none <?php echo $dropdown_bg; ?>">
@@ -92,7 +92,7 @@ function is_dropdown_active($dropdown_items, $current_page)
                 </a>
             <?php elseif ($item['type'] === 'dropdown'):
                 $dropdown_active = is_dropdown_active($item['items'], $current_page);
-                $dropdown_bg = $dropdown_active ? 'bg-[#fdf8e6] text-black font-semibold' : 'text-gray-600 hover:text-brandBlue';
+                $dropdown_bg = $dropdown_active ? 'bg-[#fdf8e6] text-black font-semibold' : 'text-gray-600 hover:text-[#ffc106]';
             ?>
                 <div class="w-full">
                     <button id="mobileDropdownBtn" class="w-full text-left flex justify-between items-center focus:outline-none px-3 py-2 rounded-lg transition-all <?php echo $dropdown_bg; ?>">
@@ -100,7 +100,7 @@ function is_dropdown_active($dropdown_items, $current_page)
                     </button>
                     <div id="mobileDropdownMenu" class="<?php echo $dropdown_active ? '' : 'hidden'; ?> pl-4 mt-2 flex flex-col gap-2 border-l border-gray-200">
                         <?php foreach ($item['items'] as $sub_item):
-                            $sub_active_style = ($sub_item['url'] === $current_page) ? 'text-black font-semibold bg-[#fdf8e6] px-2 py-1 rounded' : 'text-gray-500 hover:text-brandBlue';
+                            $sub_active_style = ($sub_item['url'] === $current_page) ? 'text-black font-semibold bg-[#fdf8e6] px-2 py-1 rounded' : 'text-gray-500 hover:text-[#ffc106]';
                         ?>
                             <a href="<?php echo htmlspecialchars($sub_item['url']); ?>"
                                 class="py-1 transition-colors <?php echo $sub_active_style; ?>">

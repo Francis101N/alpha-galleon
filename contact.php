@@ -106,7 +106,8 @@
 
                 <h3 class="text-2xl font-black text-gray-900 mb-8 tracking-tight text-left">Fill The Form below</h3>
 
-                <form action="processors/general-inquiry.php" method="POST" class="w-full grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+                <form action="proc_contact" method="POST" class="w-full grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+
                     <div class="flex flex-col gap-2">
                         <label class="text-xs font-bold text-gray-800 tracking-wide">Name</label>
                         <input type="text" name="client_name" placeholder="Your Name" required class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-brand-yellow/60 text-gray-700 placeholder-gray-400">
@@ -128,7 +129,7 @@
                         <textarea name="client_message" rows="5" placeholder="Type your message" required class="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-brand-yellow/60 text-gray-700 placeholder-gray-400 resize-none"></textarea>
                     </div>
                     <div class="sm:col-span-2 pt-2">
-                        <button type="submit" class="px-10 py-3 bg-black text-white font-bold text-xs uppercase tracking-widest clip-asymmetric-lg shadow-md transition-colors hover:bg-gray-950 cursor-pointer focus:outline-none rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
+                        <button type="submit" class="px-10 py-2.5 bg-black text-white font-bold text-xs uppercase tracking-widest border-2 border-transparent transition-all hover:bg-transparent hover:border-black hover:text-black cursor-pointer focus:outline-none rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-md">
                             Submit
                         </button>
                     </div>
